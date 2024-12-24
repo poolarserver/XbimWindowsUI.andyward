@@ -2,14 +2,17 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<LanguageTargets>$(MSBuildToolsPath)\Microsoft.CSharp.targets</LanguageTargets>
-		<TargetFrameworks>net6.0-windows7.0</TargetFrameworks>
-		<RuntimeIdentifiers>win7-x64;win7-x86</RuntimeIdentifiers>
+		<TargetFrameworks>net8.0-windows7.0</TargetFrameworks>
+		<RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
 		<OutputType>WinExe</OutputType>	
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
     <UseWindowsForms>true</UseWindowsForms>
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x86</Platforms>
 	</PropertyGroup>
+	<ItemGroup>
+	  <PackageReference Include="Xbim.IO.Esent" Version="6.0.489" />
+	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Xbim.Presentation\Xbim.Presentation.csproj" />
 	</ItemGroup>

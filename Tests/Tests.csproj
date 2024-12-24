@@ -10,6 +10,7 @@
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
     <PackageReference Include="MSTest.TestAdapter" Version="3.6.4" />
     <PackageReference Include="MSTest.TestFramework" Version="3.6.4" />
+    <PackageReference Include="Xbim.IO.Esent" Version="6.0.489" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xbim.Presentation\Xbim.Presentation.csproj" />

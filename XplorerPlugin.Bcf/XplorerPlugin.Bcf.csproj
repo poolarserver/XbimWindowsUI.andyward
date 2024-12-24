@@ -29,6 +29,12 @@
   <ItemGroup>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
+
+
+  <ItemGroup>
+    <PackageReference Include="Xbim.Essentials" Version="6.0.489" />
+    <PackageReference Include="Xbim.IO.Esent" Version="6.0.489" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Xbim.Presentation\Xbim.Presentation.csproj" />
   </ItemGroup>

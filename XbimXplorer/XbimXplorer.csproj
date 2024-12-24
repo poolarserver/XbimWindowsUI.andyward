@@ -13,16 +13,16 @@
     <UseWPF>true</UseWPF>
     <Platforms>AnyCPU;x86</Platforms>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|AnyCPU'">
 		<OutputPath>..\Output\Debug\</OutputPath>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net6.0-windows|x86'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|net8.0-windows|x86'">
 	  <OutputPath>..\Output\Debug\</OutputPath>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows|AnyCPU'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|AnyCPU'">
 		<OutputPath>..\Output\Release</OutputPath>
 	</PropertyGroup>
-	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net6.0-windows|x86'">
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|net8.0-windows|x86'">
 	  <OutputPath>..\Output\Release</OutputPath>
 	</PropertyGroup>
 	<ItemGroup>
@@ -62,7 +62,7 @@
 		<PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
 		<PackageReference Include="System.Linq.Async.Queryable" Version="6.0.1" />
 		<PackageReference Include="System.Reflection.MetadataLoadContext" Version="8.0.0" />
-    <PackageReference Include="Xbim.IO.Esent" Version="6.0.487-develop" />
+    <PackageReference Include="Xbim.IO.Esent" Version="6.0.489" />
 	</ItemGroup>
 	<ItemGroup>
 		<ProjectReference Include="..\Xbim.Presentation\Xbim.Presentation.csproj" />

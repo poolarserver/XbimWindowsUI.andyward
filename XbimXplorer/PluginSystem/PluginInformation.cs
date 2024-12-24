@@ -136,7 +136,7 @@ namespace XbimXplorer.PluginSystem
             
             foreach (var fileName in frameworkReference.Items)
             {
-                // TODO: Currently we flatten lib files. If we want to multi-target we should preserve the lib folder structure for net48, net6 etc
+                // TODO: Currently we flatten lib files. If we want to multi-target we should preserve the lib folder structure for net48, net8 etc
                 var localPath = Path.GetFileName(fileName); 
                 var destname = Path.Combine(subdir.FullName, localPath);
                 try
