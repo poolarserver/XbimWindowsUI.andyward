@@ -2,7 +2,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<LanguageTargets>$(MSBuildToolsPath)\Microsoft.CSharp.targets</LanguageTargets>
-		<TargetFrameworks>net8.0-windows7.0</TargetFrameworks>
+		<TargetFrameworks>net9.0-windows7.0</TargetFrameworks>
 		<RuntimeIdentifiers>win-x64;win-x86</RuntimeIdentifiers>
 		<OutputType>WinExe</OutputType>	
 		<GenerateAssemblyInfo>true</GenerateAssemblyInfo>
