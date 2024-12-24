@@ -326,7 +326,7 @@ namespace XbimXplorer
 #endif
                                 SetDeflection(model);
                                 //upgrade to new geometry representation, uses the default 3D model
-                                context.CreateContext(worker.ReportProgress, true);
+                                context.CreateContext(worker.ReportProgress, true, generateBREPs: true);
                             }
                             catch (Exception geomEx)
                             {
@@ -353,7 +353,7 @@ namespace XbimXplorer
 #endif
                         SetDeflection(modelReference.Model);                        
                         //upgrade to new geometry representation, uses the default 3D model
-                        context.CreateContext(worker.ReportProgress, true);
+                        context.CreateContext(worker.ReportProgress, true, generateBREPs: true);
                     }
                     if (worker.CancellationPending)
                     //if a cancellation has been requested then don't open the resulting file
